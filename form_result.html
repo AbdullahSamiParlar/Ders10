@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../static/css/style.css">
+<meta
+http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Form Sonuçları</title>
+</head>
+<body>
+{% block content %}
+    <h2>&nbsp;</h2>
+    <h1>Formu doldurduğunuz için teşekkür ederiz!</h1>
+    <h2>&nbsp;</h2>
+    <p>&nbsp;Adınız: {{name}}</p>
+    <p>&nbsp;E-postanız: {{ email }}</p>
+    <p>&nbsp;Adresiniz: {{ address }}</p>
+    <p>&nbsp;Tarih: {{ date }}</p> 
+{% endblock %}
+</body>
+</html>
